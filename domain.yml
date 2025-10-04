@@ -1,0 +1,18 @@
+intents:
+  - close_tab
+  - open_notepad
+  - open_browser
+  - delete_file
+
+entities:
+  - file
+
+responses:
+  utter_none:
+    - text: "Sorry, I did not understand."
+
+actions:
+  - action_close_tab
+  - action_open_notepad
+  - action_open_browser
+  - action_delete_file

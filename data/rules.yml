@@ -1,0 +1,21 @@
+version: "3.1"
+rules:
+- rule: Close Tab
+  steps:
+  - intent: close_tab
+  - action: action_close_tab
+
+- rule: Open Notepad
+  steps:
+  - intent: open_notepad
+  - action: action_open_notepad
+
+- rule: Open Browser
+  steps:
+  - intent: open_browser
+  - action: action_open_browser
+
+- rule: Delete File
+  steps:
+  - intent: delete_file
+  - action: action_delete_file

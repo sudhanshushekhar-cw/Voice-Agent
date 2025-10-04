@@ -1,0 +1,19 @@
+version: "3.1"
+nlu:
+- intent: close_tab
+  examples: |
+    - close tab
+    - tab band karo
+    - close the current tab
+- intent: open_notepad
+  examples: |
+    - open notepad
+    - notepad kholo
+- intent: open_browser
+  examples: |
+    - open browser
+    - google kholo
+- intent: delete_file
+  examples: |
+    - delete file test.txt
+    - remove file example.doc
